@@ -1,4 +1,4 @@
-import { Trophy } from "lucide-react"
+import { Trophy, Briefcase, Package } from "lucide-react"
 export const ShowCase = () => {
     return (
         <div className="w-[20%] bg-[#ff6467] h-full">
@@ -18,16 +18,16 @@ export const ShowCase = () => {
 
                 <div className="grid grid-cols-3 gap-6 rounded">
                     <div className="grid col-span-2 bg-[#fafafa] h-12 justify-center items-center border-2 rounded btn-shadow">
-                        <b className="font-bold p-2 text-lg">Experience</b>
+                        <b className="font-bold p-2 text-[12px]">6+ Month's of Experience</b>
                     </div>
                     <div className="col-span-1 bg-[#fafafa] flex justify-center items-center border-2 rounded btn-shadow">
-                        <Trophy size={28} />
+                        <Briefcase size={28} />
                     </div>
                 </div>
 
                 <div className="grid grid-cols-3 gap-6 rounded">
                     <div className="col-span-1 bg-[#fafafa] h-12 flex justify-center items-center border-2 rounded btn-shadow">
-                        <Trophy size={28} />
+                        <Package  size={28} />
                     </div>
 
                     <div className="grid col-span-2 bg-[#fafafa] justify-center items-center border-2 rounded btn-shadow">
