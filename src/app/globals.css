@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+
+.btn-shadow{
+
+  @apply shadow-[4px_4px_0px_0px_rgba(0,0,0,0.8)] transition-all duration-150 cursor-pointer
+}
+
+.btn-shadow:hover{
+  @apply shadow-[2px_2px_0px_0px_rgba(0,0,0,0.8)] translate-x-[1px] translate-y-[1px] 
+}
